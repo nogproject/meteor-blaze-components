@@ -27,7 +27,7 @@ Package.onUse(function (api) {
   // Core dependencies.
   api.use([
     'blaze',
-    'coffeescript',
+    'coffeescript@1.2.4 || 2.0.0', // 1.2.4 is the version from Meteor 1.4.1.
     'underscore',
     'tracker',
     'reactive-var',
@@ -95,7 +95,7 @@ Package.onTest(function (api) {
 
   // Core dependencies.
   api.use([
-    'coffeescript',
+    'coffeescript@1.2.4 || 2.0.0', // 1.2.4 is the version from Meteor 1.4.1.
     'jquery',
     'reactive-var',
     'underscore',
